@@ -42,7 +42,7 @@ console.log( stackArray.print() );
 class StackObject {
 
     constructor(){
-        this.stack = [];
+        this.stack = {};
         this.count = 0;
     }
 
